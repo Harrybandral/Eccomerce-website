@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: whitesmoke;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  padding: 62px 103px !important;
+}
+
+.navbar-2 {
+  height: 64px;
+  width: 100%;
+}
+
+.navbar-brand {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: red;
+  padding: 5px;
+}
+
+.form-control {
+  margin-top: 5px;
+}
+
+.search {
+  height: 80px;
+  width: 100%;
+}
+.navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav form input {
+  height: 80px;
+}
+.navbar-brand {
+  height: 80px;
+}
+
+button {
+  width: 110px;
+  height: 80px;
+}
+
+.nav-item-2 {
+  padding-right: 70px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.hero-section {
+  height: 450px;
+  padding: 80px;
+}

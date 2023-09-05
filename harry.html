@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="harry.css">
+
+</head>
+
+<body>
+	<section class="header ">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class=" container-fluid">
+				<a class="navbar-brand text-white " href="#">Company logo</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+
+						<li class="nav-item search w-100">
+							<form class="d-flex" role="search">
+								<input class="form-control rounded-end-0" type="search"
+									placeholder="What Are You Looking For?" aria-label="Search">
+								<button class="btn bg-danger mt-1 rounded-start-0 rounded-end-2" type="submit"><svg
+										xmlns="http://www.w3.org/2000/svg" width="30" height="28" fill="currentColor"
+										class="bi bi-search text-white fw-bolder" viewBox="0 0 16 16">
+										<path
+											d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+									</svg></button>
+							</form>
+						</li>
+						<li class="nav-item dropdown ms-5 ">
+
+							<a class="nav-link  d-flex  flex-column " href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black"
+									class="bi bi-person-circle " viewBox="0 0 16 16">
+									<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+									<path fill-rule="evenodd"
+										d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+								</svg>
+								profile
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item ms-2">
+							<a class="nav-link d-flex  flex-column" href="#">
+								<img height="54px"
+									src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4D2LGNK4uR55j5aIZT-djgA-6pbgO90CMvg&usqp=CAU">
+								wishlist
+							</a>
+						</li>
+						<li class="nav-item ms-2">
+							<a class="nav-link d-flex  flex-column" href="#">
+								<img height="54px"
+									src="https://i.pinimg.com/originals/df/70/fc/df70fc7f957c5811ff783ad0efdd4966.jpg">
+								cart
+							</a>
+						</li>
+						<li class="nav-item ms-2">
+							<a class="nav-link d-flex  flex-column" href="#">
+								<img height="54px"
+									src="https://static.vecteezy.com/system/resources/previews/002/468/372/original/language-translation-icon-concept-with-speech-bubble-free-vector.jpg">
+								languages
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<!-- 2nd Navbar starts -->
+
+	<nav class="navbar-2 navbar-expand-lg bg-dark-subtle">
+		<div class="container-fluid">
+
+			<div class=" navbar-collapse " id="navbarNav">
+				<ul class="navbar-nav d-flex justify-content-center align-content-center  ">
+					<li class="nav-item-2 d-flex justify-content-center align-content-center ">
+						<a href="#"
+							class="d-inline-flex focus-ring focus-ring-dark py-1 px-2 text-decoration-none border rounded-2">
+							<h2 class="text-body-secondary"><span class="d-inline me-2"><svg
+										xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-x-diamond-fill mb-1" viewBox="0 0 16 16">
+										<path
+											d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+									</svg></span>All Category</h2>
+						</a>
+					</li>
+					<li class="nav-item-2">
+						<a class="nav-link  fw-medium text-success    ">
+							<h2 class="text-body-secondary">Brands</h2>
+						</a>
+					</li>
+					<li class="nav-item-2">
+						<a class="nav-link  fw-medium text-success   " href="#">
+							<h2 class="text-body-secondary">Vendors</h2>
+						</a>
+					</li>
+					<li class="nav-item-2 ">
+						<a class="nav-link   fw-medium text-success  ">
+							<h2 class="text-body-secondary"> Books</h2>
+						</a>
+					</li>
+					<li class="nav-item-2 ">
+						<a class="nav-link disabled  fw-medium text-success  ">
+							<h2 class="text-body-secondary"> Others</h2>
+						</a>
+					</li>
+					<li class="nav-item-2 ">
+						<a class="nav-link disabled  text-success">
+							<h2 class="text-body-secondary"> Others</h2>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- hero-section  -->
+
+	<section class="bg-danger hero-section ">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+					<h1 class="fw-bolder text-white ">
+						Lorem ipsum dolor sit amet.
+					</h1>
+					<p class="text-white fs-5">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolor quibusdam est officia,
+						amet aperiam voluptate modi commodi perferendis mollitia eos illum dolore vero fuga.
+					</p>
+					<div class="text-center">
+						<button class="text-capitalize rounded-5 w-120 h-100 p-2" data-bs-toggle="tooltip"
+							data-bs-title="click">
+							<span class="fw-bolder text-danger-emphasis">buy
+								now
+							</span>
+						</button>
+					</div>
+				</div>
+
+				<!-- hero-section-image -->
+
+				<div class="col-12 col-md-12 col-lg-6">
+					<div class="text-center">
+						<img src="./images/Untitled_design__93__1639912468958_1639912482047-removebg-preview.png" alt=""
+							width="100%">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class=" d-flex justify-content-center align-content-center mt-4">
+		<div class="form-check form-check-inline ">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+			<label class="form-check-label" for="inlineRadio1">1</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+			<label class="form-check-label" for="inlineRadio2">2</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+			<label class="form-check-label" for="inlineRadio3">3</label>
+		</div>
+	</div>
+
+
+	<div class="w-100 ">
+		<div class="container">
+			<div class="row ">
+				<div class="d-flex justify-content-center align-content-center mt-2 p-4">
+					<div class="me-2 rounded-2"><img
+							src="https://img6.fresherslive.com/latestnews/2023/08/flipkart-big-billion-days-2023--date-and-time--best-deals--offers-list-64ce17195d9d04661777-900.webp"
+							alt="" width="100%" height="95%">
+					</div>
+					<div class="me-2 rounded-2"><img
+							src="https://cdn.flipshope.com/blog/wp-content/uploads/2023/08/Big-Billion-Days-1.jpg"
+							alt="" width="100%" height="95%">
+					</div>
+					<div class="me-2 rounded-2"><img
+							src="https://www.karobargain.com/wp-content/uploads/2021/12/Flipkart-Big-Billion-Days-2023.jpg"
+							alt="" width="100%" height="95%">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- cards-section -->
+
+	<div class="container d-flex align-content-center justify-content-start ">
+		<h1 class="d-flex justify-content-center align-content-center">Flash Sale</h1>
+	</div>
+
+	<section class="cards-section ">
+		<div class="container d-flex">
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+						the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+
+			<div class="card me-2" style="width: 18rem;">
+				<img src="./images/Untitled_design__93__1639912468958_1639912482047-removebg-preview.png"
+					class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container d-flex mt-2">
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+						the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card me-2" style="width: 18rem;">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's
+						content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+
+	<script>
+		const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+		const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+	</script>
+</body>
+
+</html>
